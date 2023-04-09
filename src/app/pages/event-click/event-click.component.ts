@@ -7,14 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventClickComponent {
   count: number = 2;
-  constructor() {}
+  constructor() {
+    console.log('ctor');
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log('ngoninit');
+  }
 
   WriteToConsole() {
-      console.log("click");
+    console.log('click');
   }
- SayaciArttir() {
+  SayaciArttir() {
     this.count++;
   }
 }

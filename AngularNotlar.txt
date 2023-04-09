@@ -14,6 +14,7 @@ angular.json: uygulamayla ilgili ayarların yapıldığı yerdir.
 
 Angular çalıştırma mantığı=> TypeScript derlendiği anda js diline dönüştürülür. Sonra tarayıcıda yorumlanıyor.
 Ctor: Classtan nesne örneği aldığımızda ilk tetiklenir.
+ngOnChanges: Componentte her değişiklik olduğunda tetiklenen methottur.
 Değişkenleri class seviyesinde  türünü tanımlamaya gerek yok ama method seviyesinde tanımlanmalıdır.
 
 TypeScript
