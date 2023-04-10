@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './datapass-input.component.html',
   styleUrls: ['./datapass-input.component.css'],
 })
-export class DatapassInputComponent {
+export class DatapassInputComponent implements OnInit {
   //dışarıdan data alır ve transfer yapar.
   @Input() name: string | undefined;
   constructor() {}

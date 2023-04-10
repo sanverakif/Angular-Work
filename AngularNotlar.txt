@@ -25,3 +25,7 @@ Super(): Miras alınan bir sınıfta ctorda parametre varsa doldurmak gerekir. K
 Protected: Miras alınan sınıfın proplarına erişebilir fakat nesne kopyası çıkartılınca protected olarak işaretlenen propa ulaşamaz. Nesne örneği alındığında gelmez.
 
 Component oluşturma: ng generate component pages/example
+
+Directives: Componentlere benzerler. Viewları yoktur. @Directive decorater kullarılır. Selectora sahip olmalıdır.
+Yapısal directive: ngfor-ngif-ngswitch
+Attribute directive: ngclass-ngstyle-ngmodel

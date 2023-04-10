@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './event-click.component.html',
   styleUrls: ['./event-click.component.css'],
 })
-export class EventClickComponent {
+export class EventClickComponent implements OnInit {
   count: number = 2;
   constructor() {
     console.log('ctor');
