@@ -12,6 +12,7 @@ import { TwoWayBindingComponent } from './pages/two-way-binding/two-way-binding.
 import { FormsModule } from '@angular/forms';
 import { NgOnChangeHookComponent } from './pages/ng-on-change-hook/ng-on-change-hook.component';
 import { NgForComponent } from './directives/ng-for/ng-for.component';
+import { NgIfComponent } from './directives/ng-if/ng-if.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NgForComponent } from './directives/ng-for/ng-for.component';
     TwoWayBindingComponent,
     NgOnChangeHookComponent,
     NgForComponent,
+    NgIfComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

@@ -5,7 +5,7 @@ Erişim belirteçleri vs.
 ng new "proje ismi"
 cd "proje ismi"
 ng serve -o | --open
-
+ng generate component "component ismi"
 tsconfig.json: ts kodlarını jse derlendiği dosyadır.
 package.json : npm dosyasıdır. 
 devDependencies: uygulama geliştirmekle ilgili paketlerin kütüphanelerin eklendiği yerdir. 
