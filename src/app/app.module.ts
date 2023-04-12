@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { NgOnChangeHookComponent } from './pages/ng-on-change-hook/ng-on-change-hook.component';
 import { NgForComponent } from './directives/ng-for/ng-for.component';
 import { NgIfComponent } from './directives/ng-if/ng-if.component';
+import { NgSwitchComponent } from './directives/ng-switch/ng-switch.component';
+import { NgClassComponent } from './directives/ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { NgIfComponent } from './directives/ng-if/ng-if.component';
     NgOnChangeHookComponent,
     NgForComponent,
     NgIfComponent,
+    NgSwitchComponent,
+    NgClassComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

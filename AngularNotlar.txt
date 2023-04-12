@@ -6,6 +6,7 @@ ng new "proje ismi"
 cd "proje ismi"
 ng serve -o | --open
 ng generate component "component ismi"
+ng generate class "class ismi"
 tsconfig.json: ts kodlarını jse derlendiği dosyadır.
 package.json : npm dosyasıdır. 
 devDependencies: uygulama geliştirmekle ilgili paketlerin kütüphanelerin eklendiği yerdir. 
@@ -28,4 +29,4 @@ Component oluşturma: ng generate component pages/example
 
 Directives: Componentlere benzerler. Viewları yoktur. @Directive decorater kullarılır. Selectora sahip olmalıdır.
 Yapısal directive: ngfor-ngif-ngswitch
-Attribute directive: ngclass-ngstyle-ngmodel
+Attribute directive: Dinamik olarak kullandığımız özelliklerdir. ngclass-ngstyle-ngmodel
