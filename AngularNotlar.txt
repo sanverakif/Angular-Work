@@ -7,6 +7,7 @@ cd "proje ismi"
 ng serve -o | --open
 ng generate component "component ismi"
 ng generate class "class ismi"
+ng generate directive "directives ismi"  : bulundukları taga özellik ve yeni davranışlar getirir. tagı ezer.
 tsconfig.json: ts kodlarını jse derlendiği dosyadır.
 package.json : npm dosyasıdır. 
 devDependencies: uygulama geliştirmekle ilgili paketlerin kütüphanelerin eklendiği yerdir. 
